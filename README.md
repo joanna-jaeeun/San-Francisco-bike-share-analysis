@@ -1,4 +1,4 @@
-# Strategic Optimization of Bike Supply and Demand ( SF, Commute time )
+# Strategic Optimization of Bike Supply and Demand
 
 ## Project Summary
 The aim of this project is to optimize bike supply and demand in San Francisco during commute hours in order to increase overall usage.
@@ -10,36 +10,35 @@ By analyzing usage patterns, the project ultimately aims to improve operational 
 
 
 ## Methodology 
-- **MySQL** : 데이터베이스 만들기, 데이터 테이블에 적재하기, 표를 조인하여 다양한 분석을 시도하기 위해서 
-- **MySQL connect with Python** : 데이터를 핸들링하고, 시각화하여 인사이트를 얻기 위해
+- **MySQL** : To create a database, load data into tables, and perform various analyses by joining tables.
+- **MySQL connect with Python** : To handle and visualize data in order to gain insights.
 
   
 ## Key findings
-
-
 ### Hourly usage on weekdays
 
-![test](assets/Radarchart.png)
+![test](assets/Hourly_usage_trend.png)
+
 **Anlaysis**
 - When the departure and arrival stations are different, peak usage occurs at 8 AM, 9 AM, 4 PM, 6 PM, and 7 PM.
 - When the departure and arrival stations are the same, peak usage occurs around 12 PM, 1 PM, and 2 PM
 
-
-![test](assets/Radarchart.png)
 **Business insights**
 - Introduce a 10-minute free-stop incentive and offer rewards for short-distance round trips to attract afternoon users.
   
 
 ### Average demand, Available bikes, and Demand-Supply gap 
 
-![test](assets/Radarchart.png)
+![test](assets/Surplus_gap_start_station.png)
+
 **Analysis**
 - average_surplus_gap: avg_available minus avg_demand
 - A smaller (more negative) value indicates the station may experience a supply shortage
 - 7 out of 10 popular start stations show values below 2 with some especially having negative values
 
 
-![test](assets/Radarchart.png)
+![test](assets/Harry_Bridges_Plaza.png)
+
 **Business insights**
 - Steuart at Market: Located approximately 100 meters away, making it a walkable distance.
 - According to the table above, there is an average surplus of 4 bikes at 8 AM.
@@ -50,14 +49,16 @@ By analyzing usage patterns, the project ultimately aims to improve operational 
 
 ### Average arrivals, Remaining bikes, and Average capacity
 
-![test](assets/Radarchart.png)
+![test](assets/Capacity_end_station.png)
+
 **Anlaysis**
 - average_capacity: dock - avg_remaining_bikes - avg_arrival
 - A smaller (more negative) value indicates the station may experience a supply surplus
 - 4 out of 10 popular start stations show values below 5 with some especially having negative values
 
 
-![test](assets/Radarchart.png)
+![test](assets/SFC(Townsend).png)
+
 **Business insights**
 - San Francisco Caltrain 2 (330 Townsend) station continues to experience a shortage of available docks. Since 2nd at Townsend station has approximately 11 available docks, users can be encouraged to divert there to alleviate congestion.
 - Missed Dock Compensation Program: To reduce user inconvenience when no docks are available at their destination, issue coupons as compensation for rerouting to nearby stations.
