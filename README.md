@@ -48,25 +48,25 @@ By analyzing usage patterns, the project ultimately aims to improve operational 
 - → Monitor nearby inventory within 1 km and quickly reallocate bikes as needed.
 
 
-### Customer Profiles Derived from Radar Chart Analysis
+### Average arrivals, Remaining bikes, and Average capacity
 
 ![test](assets/Radarchart.png)
 **Anlaysis**
-- Customers in this cluster usually shop less frequently and spend less money compared to other clusters.
+- average_capacity: dock - avg_remaining_bikes - avg_arrival
+- A smaller (more negative) value indicates the station may experience a supply surplus
+- 4 out of 10 popular start stations show values below 5 with some especially having negative values
 
 
 ![test](assets/Radarchart.png)
-**Anlaysis**
-- Customers in this cluster usually shop less frequently and spend less money compared to other clusters.
+**Business insights**
+- San Francisco Caltrain 2 (330 Townsend) 의 경우 여전히 여유공간 부족. 2nd at Townsend 역의 경우 약 11대의 여유공간이 있으므로 해당 공간으로 분산운영하도록 유도함
+- 헛걸음 보상제 : 통해 도착한 곳에 여유 도킹이 없을 경우 다른 곳에 주차해야하는 불편함을 고려하여 쿠폰 발행
 
-</div>
+
 
 ## Conclusions
-
-- User end : personalized shopping experiences based on their purchase behavior
-- Business end : personalized shopping experiences based on their purchase behavior, identify high-value or at-risk customers to improve retention and engagement, Supports personalized promotions, leading to improved ROI and reduced marketing costs.
-
-
+- User end : 출퇴근 시간 자전거 부족으로인한 불편, 도킹공간 부족으로 인한 주차 실패 등의 불편함 제거, 이용 혜택을 통한 보다 경제적인 이용
+- Business end : 자전거 부족 역, 자전거 주차 과잉 역을 파악하여 분산운영 최적화. 
 
 
 ## Used Datasets
