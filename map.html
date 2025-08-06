@@ -1,0 +1,2761 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f45638c6a09d367d31078d1cd38fab5d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f45638c6a09d367d31078d1cd38fab5d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f45638c6a09d367d31078d1cd38fab5d = L.map(
+                "map_f45638c6a09d367d31078d1cd38fab5d",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_16437f66d080b2c841519026fdfa5384 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_16437f66d080b2c841519026fdfa5384.addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var marker_7ce5b05ac72a05082884e32cf066882a = L.marker(
+                [37.3297, -121.902],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_3c008337eef093efcfb1e6537333f091 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa654035739747508a4787db4fc0b40c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b8ce5278c4f245f50651604c5bd859d = $(`<div id="html_0b8ce5278c4f245f50651604c5bd859d" style="width: 100.0%; height: 100.0%;"><b>San Jose Diridon Caltrain Station</b><br>Installed: 2013-08-06<br>City: San Jose</div>`)[0];
+                popup_aa654035739747508a4787db4fc0b40c.setContent(html_0b8ce5278c4f245f50651604c5bd859d);
+            
+        
+
+        marker_7ce5b05ac72a05082884e32cf066882a.bindPopup(popup_aa654035739747508a4787db4fc0b40c)
+        ;
+
+        
+    
+    
+                marker_7ce5b05ac72a05082884e32cf066882a.setIcon(icon_3c008337eef093efcfb1e6537333f091);
+            
+    
+            var marker_2369fe5f391e8b3931d0e8c740703a88 = L.marker(
+                [37.3307, -121.889],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_d355a972a8be2354f0dcc0c15b90ba9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d14875f4fd6b4cb36d3f59bbdbb9b63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5828dbcf7b712922a7f241c35ad0c4a3 = $(`<div id="html_5828dbcf7b712922a7f241c35ad0c4a3" style="width: 100.0%; height: 100.0%;"><b>San Jose Civic Center</b><br>Installed: 2013-08-05<br>City: San Jose</div>`)[0];
+                popup_5d14875f4fd6b4cb36d3f59bbdbb9b63.setContent(html_5828dbcf7b712922a7f241c35ad0c4a3);
+            
+        
+
+        marker_2369fe5f391e8b3931d0e8c740703a88.bindPopup(popup_5d14875f4fd6b4cb36d3f59bbdbb9b63)
+        ;
+
+        
+    
+    
+                marker_2369fe5f391e8b3931d0e8c740703a88.setIcon(icon_d355a972a8be2354f0dcc0c15b90ba9e);
+            
+    
+            var marker_400ebcaab0ee0d48fb97c36f4451ca06 = L.marker(
+                [37.334, -121.895],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_04688d2cf83c0f738d966133d80d4176 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_394563ee11256c125de63829024101b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0ee91fa86ebb991827dd1fc73b136cb = $(`<div id="html_f0ee91fa86ebb991827dd1fc73b136cb" style="width: 100.0%; height: 100.0%;"><b>Santa Clara at Almaden</b><br>Installed: 2013-08-06<br>City: San Jose</div>`)[0];
+                popup_394563ee11256c125de63829024101b4.setContent(html_f0ee91fa86ebb991827dd1fc73b136cb);
+            
+        
+
+        marker_400ebcaab0ee0d48fb97c36f4451ca06.bindPopup(popup_394563ee11256c125de63829024101b4)
+        ;
+
+        
+    
+    
+                marker_400ebcaab0ee0d48fb97c36f4451ca06.setIcon(icon_04688d2cf83c0f738d966133d80d4176);
+            
+    
+            var marker_7efd3e9b02a05aa275dcdab418512be6 = L.marker(
+                [37.3314, -121.893],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_274decab391e65d86801400a97656bd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e672c5ca7a11b0b63a08cb86987f3c6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_190d5efe34ce4528f7fa2d2b7f8e874a = $(`<div id="html_190d5efe34ce4528f7fa2d2b7f8e874a" style="width: 100.0%; height: 100.0%;"><b>Adobe on Almaden</b><br>Installed: 2013-08-05<br>City: San Jose</div>`)[0];
+                popup_e672c5ca7a11b0b63a08cb86987f3c6f.setContent(html_190d5efe34ce4528f7fa2d2b7f8e874a);
+            
+        
+
+        marker_7efd3e9b02a05aa275dcdab418512be6.bindPopup(popup_e672c5ca7a11b0b63a08cb86987f3c6f)
+        ;
+
+        
+    
+    
+                marker_7efd3e9b02a05aa275dcdab418512be6.setIcon(icon_274decab391e65d86801400a97656bd4);
+            
+    
+            var marker_7f5bf80b0dfabc7b687f72eb6a92a8b1 = L.marker(
+                [37.3367, -121.894],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_23222b90b20bbff7d1e2899dedcd6bba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61e450991cb527f17409aef5bb3bec26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee54fb0a2ca905fa3f23e1205a0bc645 = $(`<div id="html_ee54fb0a2ca905fa3f23e1205a0bc645" style="width: 100.0%; height: 100.0%;"><b>San Pedro Square</b><br>Installed: 2013-08-07<br>City: San Jose</div>`)[0];
+                popup_61e450991cb527f17409aef5bb3bec26.setContent(html_ee54fb0a2ca905fa3f23e1205a0bc645);
+            
+        
+
+        marker_7f5bf80b0dfabc7b687f72eb6a92a8b1.bindPopup(popup_61e450991cb527f17409aef5bb3bec26)
+        ;
+
+        
+    
+    
+                marker_7f5bf80b0dfabc7b687f72eb6a92a8b1.setIcon(icon_23222b90b20bbff7d1e2899dedcd6bba);
+            
+    
+            var marker_a150283638579b7cb84c931fadd52072 = L.marker(
+                [37.3338, -121.887],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_08db1399613c2d7cec249776909d9b0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a86b170384d8db5033cd86b0dcc8529 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6aea9d25339438fce1e16edcd9b2af58 = $(`<div id="html_6aea9d25339438fce1e16edcd9b2af58" style="width: 100.0%; height: 100.0%;"><b>Paseo de San Antonio</b><br>Installed: 2013-08-07<br>City: San Jose</div>`)[0];
+                popup_7a86b170384d8db5033cd86b0dcc8529.setContent(html_6aea9d25339438fce1e16edcd9b2af58);
+            
+        
+
+        marker_a150283638579b7cb84c931fadd52072.bindPopup(popup_7a86b170384d8db5033cd86b0dcc8529)
+        ;
+
+        
+    
+    
+                marker_a150283638579b7cb84c931fadd52072.setIcon(icon_08db1399613c2d7cec249776909d9b0a);
+            
+    
+            var marker_d318615f118b472b15e753f51ef51d7d = L.marker(
+                [37.3302, -121.886],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_6458bb2d9d6b56a9e20f2cb5b2679a84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94c4947a4d354a015040f2bec571709a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_990c4e37090878473b9ad006b6f3227e = $(`<div id="html_990c4e37090878473b9ad006b6f3227e" style="width: 100.0%; height: 100.0%;"><b>San Salvador at 1st</b><br>Installed: 2013-08-05<br>City: San Jose</div>`)[0];
+                popup_94c4947a4d354a015040f2bec571709a.setContent(html_990c4e37090878473b9ad006b6f3227e);
+            
+        
+
+        marker_d318615f118b472b15e753f51ef51d7d.bindPopup(popup_94c4947a4d354a015040f2bec571709a)
+        ;
+
+        
+    
+    
+                marker_d318615f118b472b15e753f51ef51d7d.setIcon(icon_6458bb2d9d6b56a9e20f2cb5b2679a84);
+            
+    
+            var marker_84b9d9a7f184dbe58dc1976ad274473c = L.marker(
+                [37.3487, -121.895],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_e199e2075f8c5ec2fe684f8b61bc9258 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7fdeea668ffd9f5ca6ee8e83d950e3e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d77212099064c4a8ea08054375b2ae7 = $(`<div id="html_3d77212099064c4a8ea08054375b2ae7" style="width: 100.0%; height: 100.0%;"><b>Japantown</b><br>Installed: 2013-08-05<br>City: San Jose</div>`)[0];
+                popup_7fdeea668ffd9f5ca6ee8e83d950e3e1.setContent(html_3d77212099064c4a8ea08054375b2ae7);
+            
+        
+
+        marker_84b9d9a7f184dbe58dc1976ad274473c.bindPopup(popup_7fdeea668ffd9f5ca6ee8e83d950e3e1)
+        ;
+
+        
+    
+    
+                marker_84b9d9a7f184dbe58dc1976ad274473c.setIcon(icon_e199e2075f8c5ec2fe684f8b61bc9258);
+            
+    
+            var marker_b0d5a66925637a63f88a8caa8e983e1f = L.marker(
+                [37.3374, -121.887],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_c56ecc8cdbcffb4097f911a64e1d22f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7521b45b5b6649919f7feb532f3acfca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df08fbc05314569bcdf99bd9e9878409 = $(`<div id="html_df08fbc05314569bcdf99bd9e9878409" style="width: 100.0%; height: 100.0%;"><b>San Jose City Hall</b><br>Installed: 2013-08-06<br>City: San Jose</div>`)[0];
+                popup_7521b45b5b6649919f7feb532f3acfca.setContent(html_df08fbc05314569bcdf99bd9e9878409);
+            
+        
+
+        marker_b0d5a66925637a63f88a8caa8e983e1f.bindPopup(popup_7521b45b5b6649919f7feb532f3acfca)
+        ;
+
+        
+    
+    
+                marker_b0d5a66925637a63f88a8caa8e983e1f.setIcon(icon_c56ecc8cdbcffb4097f911a64e1d22f6);
+            
+    
+            var marker_1192a573f98a53370de931bcc13b8514 = L.marker(
+                [37.3359, -121.886],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_abb5d49b6c8e1d1c10ebdc5892e1b3e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65cae421cd94a5684801b32c23e34383 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b86fe586d3abed50e150d7fc3cebde81 = $(`<div id="html_b86fe586d3abed50e150d7fc3cebde81" style="width: 100.0%; height: 100.0%;"><b>MLK Library</b><br>Installed: 2013-08-06<br>City: San Jose</div>`)[0];
+                popup_65cae421cd94a5684801b32c23e34383.setContent(html_b86fe586d3abed50e150d7fc3cebde81);
+            
+        
+
+        marker_1192a573f98a53370de931bcc13b8514.bindPopup(popup_65cae421cd94a5684801b32c23e34383)
+        ;
+
+        
+    
+    
+                marker_1192a573f98a53370de931bcc13b8514.setIcon(icon_abb5d49b6c8e1d1c10ebdc5892e1b3e1);
+            
+    
+            var marker_7ed3b0ab2811c474642ed3400d08c6e6 = L.marker(
+                [37.3328, -121.884],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_f6309667880cb9f91ea2a9c6de42e316 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9951447b3f0737da5f217d9ab7ba3a25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e058a8ed9355fe37b5e7154a31d3b889 = $(`<div id="html_e058a8ed9355fe37b5e7154a31d3b889" style="width: 100.0%; height: 100.0%;"><b>SJSU 4th at San Carlos</b><br>Installed: 2013-08-07<br>City: San Jose</div>`)[0];
+                popup_9951447b3f0737da5f217d9ab7ba3a25.setContent(html_e058a8ed9355fe37b5e7154a31d3b889);
+            
+        
+
+        marker_7ed3b0ab2811c474642ed3400d08c6e6.bindPopup(popup_9951447b3f0737da5f217d9ab7ba3a25)
+        ;
+
+        
+    
+    
+                marker_7ed3b0ab2811c474642ed3400d08c6e6.setIcon(icon_f6309667880cb9f91ea2a9c6de42e316);
+            
+    
+            var marker_91cb09d7eccb37b830753b0a894f8067 = L.marker(
+                [37.3393, -121.89],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_cb88dbdc45993d90c641f7d33ceda00c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3dd7008530d0e3fa8ab1845d8da6e434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e24408b08f766eb470c924c0bc522b8b = $(`<div id="html_e24408b08f766eb470c924c0bc522b8b" style="width: 100.0%; height: 100.0%;"><b>St James Park</b><br>Installed: 2013-08-06<br>City: San Jose</div>`)[0];
+                popup_3dd7008530d0e3fa8ab1845d8da6e434.setContent(html_e24408b08f766eb470c924c0bc522b8b);
+            
+        
+
+        marker_91cb09d7eccb37b830753b0a894f8067.bindPopup(popup_3dd7008530d0e3fa8ab1845d8da6e434)
+        ;
+
+        
+    
+    
+                marker_91cb09d7eccb37b830753b0a894f8067.setIcon(icon_cb88dbdc45993d90c641f7d33ceda00c);
+            
+    
+            var marker_6be82414016b010019c093842574bef0 = L.marker(
+                [37.3327, -121.9],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_41298d63b59e18ec0bd2ecbd9242f562 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a12792cfa326b16790e363bce4e1651a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_833bf00ec090d95b5f7f0295fb561ac0 = $(`<div id="html_833bf00ec090d95b5f7f0295fb561ac0" style="width: 100.0%; height: 100.0%;"><b>Arena Green / SAP Center</b><br>Installed: 2013-08-05<br>City: San Jose</div>`)[0];
+                popup_a12792cfa326b16790e363bce4e1651a.setContent(html_833bf00ec090d95b5f7f0295fb561ac0);
+            
+        
+
+        marker_6be82414016b010019c093842574bef0.bindPopup(popup_a12792cfa326b16790e363bce4e1651a)
+        ;
+
+        
+    
+    
+                marker_6be82414016b010019c093842574bef0.setIcon(icon_41298d63b59e18ec0bd2ecbd9242f562);
+            
+    
+            var marker_bc1a8e0c7c4053e1e919cdb222fa3325 = L.marker(
+                [37.334, -121.877],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_3757eea3542047e3ef2500c621260938 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2c912c6719388af8dfda7cda8bf2d4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6605d5f0619b5eed3c4a573c18463796 = $(`<div id="html_6605d5f0619b5eed3c4a573c18463796" style="width: 100.0%; height: 100.0%;"><b>SJSU - San Salvador at 9th</b><br>Installed: 2013-08-07<br>City: San Jose</div>`)[0];
+                popup_2c912c6719388af8dfda7cda8bf2d4c4.setContent(html_6605d5f0619b5eed3c4a573c18463796);
+            
+        
+
+        marker_bc1a8e0c7c4053e1e919cdb222fa3325.bindPopup(popup_2c912c6719388af8dfda7cda8bf2d4c4)
+        ;
+
+        
+    
+    
+                marker_bc1a8e0c7c4053e1e919cdb222fa3325.setIcon(icon_3757eea3542047e3ef2500c621260938);
+            
+    
+            var marker_1eb33e3c99bcf0e8fb24f7a6156f1400 = L.marker(
+                [37.4818, -122.227],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_72a29880f9213ef3a79f4e44a228fe35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3d3be7b82d523487786a8a02ac42929 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04824123feac864cab305a067c223274 = $(`<div id="html_04824123feac864cab305a067c223274" style="width: 100.0%; height: 100.0%;"><b>Franklin at Maple</b><br>Installed: 2013-08-12<br>City: Redwood City</div>`)[0];
+                popup_b3d3be7b82d523487786a8a02ac42929.setContent(html_04824123feac864cab305a067c223274);
+            
+        
+
+        marker_1eb33e3c99bcf0e8fb24f7a6156f1400.bindPopup(popup_b3d3be7b82d523487786a8a02ac42929)
+        ;
+
+        
+    
+    
+                marker_1eb33e3c99bcf0e8fb24f7a6156f1400.setIcon(icon_72a29880f9213ef3a79f4e44a228fe35);
+            
+    
+            var marker_f48703e84e4046fd15369f9b025b55b0 = L.marker(
+                [37.4861, -122.232],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_0cd7dc5bb5a9508c86fcb7037cb3504c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ad268666f87a3fc7a3ed335d660f4f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1003fc44b9c6378c0fefd84abaf8cf5 = $(`<div id="html_d1003fc44b9c6378c0fefd84abaf8cf5" style="width: 100.0%; height: 100.0%;"><b>Redwood City Caltrain Station</b><br>Installed: 2013-08-15<br>City: Redwood City</div>`)[0];
+                popup_1ad268666f87a3fc7a3ed335d660f4f2.setContent(html_d1003fc44b9c6378c0fefd84abaf8cf5);
+            
+        
+
+        marker_f48703e84e4046fd15369f9b025b55b0.bindPopup(popup_1ad268666f87a3fc7a3ed335d660f4f2)
+        ;
+
+        
+    
+    
+                marker_f48703e84e4046fd15369f9b025b55b0.setIcon(icon_0cd7dc5bb5a9508c86fcb7037cb3504c);
+            
+    
+            var marker_7011b142e8a692e624491db9b64ab1d0 = L.marker(
+                [37.4876, -122.23],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_b688b75cb3470963343d4727b00b1d99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bbe577176dd67d800cde82c45dcaf0ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a41232e99d3f4d2a4667d78f61c30f90 = $(`<div id="html_a41232e99d3f4d2a4667d78f61c30f90" style="width: 100.0%; height: 100.0%;"><b>San Mateo County Center</b><br>Installed: 2013-08-15<br>City: Redwood City</div>`)[0];
+                popup_bbe577176dd67d800cde82c45dcaf0ba.setContent(html_a41232e99d3f4d2a4667d78f61c30f90);
+            
+        
+
+        marker_7011b142e8a692e624491db9b64ab1d0.bindPopup(popup_bbe577176dd67d800cde82c45dcaf0ba)
+        ;
+
+        
+    
+    
+                marker_7011b142e8a692e624491db9b64ab1d0.setIcon(icon_b688b75cb3470963343d4727b00b1d99);
+            
+    
+            var marker_10a39c2a28141e91cc67c5c4ab62064a = L.marker(
+                [37.4842, -122.227],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_0b0fde0af87e3e3865b5717b8b825215 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c33e6cda237f423f2eac2c1764e9b8a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_488c08a67ed474fab138838b9ce4e32e = $(`<div id="html_488c08a67ed474fab138838b9ce4e32e" style="width: 100.0%; height: 100.0%;"><b>Redwood City Public Library</b><br>Installed: 2013-08-12<br>City: Redwood City</div>`)[0];
+                popup_c33e6cda237f423f2eac2c1764e9b8a4.setContent(html_488c08a67ed474fab138838b9ce4e32e);
+            
+        
+
+        marker_10a39c2a28141e91cc67c5c4ab62064a.bindPopup(popup_c33e6cda237f423f2eac2c1764e9b8a4)
+        ;
+
+        
+    
+    
+                marker_10a39c2a28141e91cc67c5c4ab62064a.setIcon(icon_0b0fde0af87e3e3865b5717b8b825215);
+            
+    
+            var marker_0359b887235c9af272a10501e536cb4c = L.marker(
+                [37.4854, -122.203],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_571559d6d4069c83ecff6c8ccdc7da6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1893985c6802ec6324b69fca3fa0ae77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fef78ffd39187df6e5f371030e311229 = $(`<div id="html_fef78ffd39187df6e5f371030e311229" style="width: 100.0%; height: 100.0%;"><b>Stanford in Redwood City</b><br>Installed: 2013-08-12<br>City: Redwood City</div>`)[0];
+                popup_1893985c6802ec6324b69fca3fa0ae77.setContent(html_fef78ffd39187df6e5f371030e311229);
+            
+        
+
+        marker_0359b887235c9af272a10501e536cb4c.bindPopup(popup_1893985c6802ec6324b69fca3fa0ae77)
+        ;
+
+        
+    
+    
+                marker_0359b887235c9af272a10501e536cb4c.setIcon(icon_571559d6d4069c83ecff6c8ccdc7da6e);
+            
+    
+            var marker_07c3a542da19cc6cd7e8765db1a17e36 = L.marker(
+                [37.4877, -122.223],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_4aa96748c4be0b98f1028acb5d788532 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a0fb29ffaa8de8ea94668efbc7c36ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90054b17bc86bca152c6e202ebf1063d = $(`<div id="html_90054b17bc86bca152c6e202ebf1063d" style="width: 100.0%; height: 100.0%;"><b>Redwood City Medical Center</b><br>Installed: 2013-08-12<br>City: Redwood City</div>`)[0];
+                popup_9a0fb29ffaa8de8ea94668efbc7c36ed.setContent(html_90054b17bc86bca152c6e202ebf1063d);
+            
+        
+
+        marker_07c3a542da19cc6cd7e8765db1a17e36.bindPopup(popup_9a0fb29ffaa8de8ea94668efbc7c36ed)
+        ;
+
+        
+    
+    
+                marker_07c3a542da19cc6cd7e8765db1a17e36.setIcon(icon_4aa96748c4be0b98f1028acb5d788532);
+            
+    
+            var marker_1cd82e8d07b2c98e15ff0175be1e2940 = L.marker(
+                [37.3892, -122.082],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_ae30e0edeb51c25cbeb886fe1e105c38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ed766ee1401235d6d3a9b4b2cf8054e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bbdc596ce3489b7bbb6c708543e27a6 = $(`<div id="html_9bbdc596ce3489b7bbb6c708543e27a6" style="width: 100.0%; height: 100.0%;"><b>Mountain View City Hall</b><br>Installed: 2013-08-16<br>City: Mountain View</div>`)[0];
+                popup_2ed766ee1401235d6d3a9b4b2cf8054e.setContent(html_9bbdc596ce3489b7bbb6c708543e27a6);
+            
+        
+
+        marker_1cd82e8d07b2c98e15ff0175be1e2940.bindPopup(popup_2ed766ee1401235d6d3a9b4b2cf8054e)
+        ;
+
+        
+    
+    
+                marker_1cd82e8d07b2c98e15ff0175be1e2940.setIcon(icon_ae30e0edeb51c25cbeb886fe1e105c38);
+            
+    
+            var marker_9d97bc288b3df5877b8c02f9e58157b6 = L.marker(
+                [37.3944, -122.077],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_4a0cae9db97b3cfd7dfe92a3904960d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3da9cef6a0377e706ec8a532434507b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c193869256348ecf4aa7c730e6dd3b54 = $(`<div id="html_c193869256348ecf4aa7c730e6dd3b54" style="width: 100.0%; height: 100.0%;"><b>Mountain View Caltrain Station</b><br>Installed: 2013-08-15<br>City: Mountain View</div>`)[0];
+                popup_c3da9cef6a0377e706ec8a532434507b.setContent(html_c193869256348ecf4aa7c730e6dd3b54);
+            
+        
+
+        marker_9d97bc288b3df5877b8c02f9e58157b6.bindPopup(popup_c3da9cef6a0377e706ec8a532434507b)
+        ;
+
+        
+    
+    
+                marker_9d97bc288b3df5877b8c02f9e58157b6.setIcon(icon_4a0cae9db97b3cfd7dfe92a3904960d2);
+            
+    
+            var marker_ad2a2c777183fc0ab8769abc1eef2ead = L.marker(
+                [37.4069, -122.107],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_b5334eba5a7249ecb2876f4c243a44e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7cff5e3d396e2b4c0eb4a497cd74728 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa017f33d533f9020d138262f04d34e3 = $(`<div id="html_fa017f33d533f9020d138262f04d34e3" style="width: 100.0%; height: 100.0%;"><b>San Antonio Caltrain Station</b><br>Installed: 2013-08-15<br>City: Mountain View</div>`)[0];
+                popup_f7cff5e3d396e2b4c0eb4a497cd74728.setContent(html_fa017f33d533f9020d138262f04d34e3);
+            
+        
+
+        marker_ad2a2c777183fc0ab8769abc1eef2ead.bindPopup(popup_f7cff5e3d396e2b4c0eb4a497cd74728)
+        ;
+
+        
+    
+    
+                marker_ad2a2c777183fc0ab8769abc1eef2ead.setIcon(icon_b5334eba5a7249ecb2876f4c243a44e0);
+            
+    
+            var marker_16dcb6790f002606dafba632d9970bd8 = L.marker(
+                [37.3903, -122.067],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_24e531dd2424ff00170a723db7719e64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb9674d587fb5675bc12487adb1964eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2591a1a6e7146a20fa31e6250f6e4181 = $(`<div id="html_2591a1a6e7146a20fa31e6250f6e4181" style="width: 100.0%; height: 100.0%;"><b>Evelyn Park and Ride</b><br>Installed: 2013-08-16<br>City: Mountain View</div>`)[0];
+                popup_cb9674d587fb5675bc12487adb1964eb.setContent(html_2591a1a6e7146a20fa31e6250f6e4181);
+            
+        
+
+        marker_16dcb6790f002606dafba632d9970bd8.bindPopup(popup_cb9674d587fb5675bc12487adb1964eb)
+        ;
+
+        
+    
+    
+                marker_16dcb6790f002606dafba632d9970bd8.setIcon(icon_24e531dd2424ff00170a723db7719e64);
+            
+    
+            var marker_bbad19d0856847e99281ba01f6d483a3 = L.marker(
+                [37.4004, -122.108],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_54f9a71e573915f2555c86d1f09f4643 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56c1f5b62facf19d625ccaa782cf3ce6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74d7114e9f831d4eb676201365a216ca = $(`<div id="html_74d7114e9f831d4eb676201365a216ca" style="width: 100.0%; height: 100.0%;"><b>San Antonio Shopping Center</b><br>Installed: 2013-12-31<br>City: Mountain View</div>`)[0];
+                popup_56c1f5b62facf19d625ccaa782cf3ce6.setContent(html_74d7114e9f831d4eb676201365a216ca);
+            
+        
+
+        marker_bbad19d0856847e99281ba01f6d483a3.bindPopup(popup_56c1f5b62facf19d625ccaa782cf3ce6)
+        ;
+
+        
+    
+    
+                marker_bbad19d0856847e99281ba01f6d483a3.setIcon(icon_54f9a71e573915f2555c86d1f09f4643);
+            
+    
+            var marker_2baa0de4db62e7f4d195ba745de5d81e = L.marker(
+                [37.386, -122.084],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_3b47240a9c76bb732199818cebe35c29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c18ab2eaffe6940c009df63b4a25f06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ee6efe62e45112aca530c02ba5ac49 = $(`<div id="html_75ee6efe62e45112aca530c02ba5ac49" style="width: 100.0%; height: 100.0%;"><b>Castro Street and El Camino Real</b><br>Installed: 2013-12-31<br>City: Mountain View</div>`)[0];
+                popup_4c18ab2eaffe6940c009df63b4a25f06.setContent(html_75ee6efe62e45112aca530c02ba5ac49);
+            
+        
+
+        marker_2baa0de4db62e7f4d195ba745de5d81e.bindPopup(popup_4c18ab2eaffe6940c009df63b4a25f06)
+        ;
+
+        
+    
+    
+                marker_2baa0de4db62e7f4d195ba745de5d81e.setIcon(icon_3b47240a9c76bb732199818cebe35c29);
+            
+    
+            var marker_a7fe529d9cfb4d34cfd3bd080cb2680b = L.marker(
+                [37.4002, -122.099],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_99deabef6eb3a5c96df67ce3d2a731d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a143861a0f769d10e81bc328846c3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f108146d8d80a72e7af8ff14d52b80 = $(`<div id="html_97f108146d8d80a72e7af8ff14d52b80" style="width: 100.0%; height: 100.0%;"><b>Rengstorff Avenue / California Street</b><br>Installed: 2013-08-16<br>City: Mountain View</div>`)[0];
+                popup_2a143861a0f769d10e81bc328846c3b2.setContent(html_97f108146d8d80a72e7af8ff14d52b80);
+            
+        
+
+        marker_a7fe529d9cfb4d34cfd3bd080cb2680b.bindPopup(popup_2a143861a0f769d10e81bc328846c3b2)
+        ;
+
+        
+    
+    
+                marker_a7fe529d9cfb4d34cfd3bd080cb2680b.setIcon(icon_99deabef6eb3a5c96df67ce3d2a731d5);
+            
+    
+            var marker_eb01d10d1cfa408ecfcab5798c31c76b = L.marker(
+                [37.444, -122.165],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_646e199c15be58b80eb0295f969c0eb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55bdf5b6c385b66a83295f5a06f435a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a086215c7a25cadc8b198f0510a46f7b = $(`<div id="html_a086215c7a25cadc8b198f0510a46f7b" style="width: 100.0%; height: 100.0%;"><b>Palo Alto Caltrain Station</b><br>Installed: 2013-08-14<br>City: Palo Alto</div>`)[0];
+                popup_55bdf5b6c385b66a83295f5a06f435a3.setContent(html_a086215c7a25cadc8b198f0510a46f7b);
+            
+        
+
+        marker_eb01d10d1cfa408ecfcab5798c31c76b.bindPopup(popup_55bdf5b6c385b66a83295f5a06f435a3)
+        ;
+
+        
+    
+    
+                marker_eb01d10d1cfa408ecfcab5798c31c76b.setIcon(icon_646e199c15be58b80eb0295f969c0eb5);
+            
+    
+            var marker_974a4a30b0e277aafa92af5d669507f4 = L.marker(
+                [37.4445, -122.163],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_416a5ffc2289ab2e3710244f57f111c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d5e27e659279f898b659102f9e02a6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ae6afd1141461f1e45cf3667ff8a637 = $(`<div id="html_7ae6afd1141461f1e45cf3667ff8a637" style="width: 100.0%; height: 100.0%;"><b>University and Emerson</b><br>Installed: 2013-08-15<br>City: Palo Alto</div>`)[0];
+                popup_7d5e27e659279f898b659102f9e02a6f.setContent(html_7ae6afd1141461f1e45cf3667ff8a637);
+            
+        
+
+        marker_974a4a30b0e277aafa92af5d669507f4.bindPopup(popup_7d5e27e659279f898b659102f9e02a6f)
+        ;
+
+        
+    
+    
+                marker_974a4a30b0e277aafa92af5d669507f4.setIcon(icon_416a5ffc2289ab2e3710244f57f111c7);
+            
+    
+            var marker_aeebd66f1b1685ff821106061f1f5b60 = L.marker(
+                [37.4291, -122.143],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_eba3ba0368c742bd17b6f1398e2e7b2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72f30a76104b2c31c7978670bb71a332 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f60cd06b0bf750af6ee1913dfcf4d143 = $(`<div id="html_f60cd06b0bf750af6ee1913dfcf4d143" style="width: 100.0%; height: 100.0%;"><b>California Ave Caltrain Station</b><br>Installed: 2013-08-14<br>City: Palo Alto</div>`)[0];
+                popup_72f30a76104b2c31c7978670bb71a332.setContent(html_f60cd06b0bf750af6ee1913dfcf4d143);
+            
+        
+
+        marker_aeebd66f1b1685ff821106061f1f5b60.bindPopup(popup_72f30a76104b2c31c7978670bb71a332)
+        ;
+
+        
+    
+    
+                marker_aeebd66f1b1685ff821106061f1f5b60.setIcon(icon_eba3ba0368c742bd17b6f1398e2e7b2a);
+            
+    
+            var marker_93e48d336d0c62ae7640d321aa6cc8d0 = L.marker(
+                [37.4486, -122.16],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_49a43adc15e9994b7a0e684f873186d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5df4ff231093e619678c0b3271981dde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76ad870dfeb380be74e67fc035d2415d = $(`<div id="html_76ad870dfeb380be74e67fc035d2415d" style="width: 100.0%; height: 100.0%;"><b>Cowper at University</b><br>Installed: 2013-08-14<br>City: Palo Alto</div>`)[0];
+                popup_5df4ff231093e619678c0b3271981dde.setContent(html_76ad870dfeb380be74e67fc035d2415d);
+            
+        
+
+        marker_93e48d336d0c62ae7640d321aa6cc8d0.bindPopup(popup_5df4ff231093e619678c0b3271981dde)
+        ;
+
+        
+    
+    
+                marker_93e48d336d0c62ae7640d321aa6cc8d0.setIcon(icon_49a43adc15e9994b7a0e684f873186d1);
+            
+    
+            var marker_ece166f90a6c2ee68542ac1c14ec53bc = L.marker(
+                [37.4257, -122.138],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_449ae5b13b67a83148cbd469338b7ad4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8909cee4e559dd0ef5adbc6eb9906fed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fd07593a9caa61bc7648a1e4abe4151 = $(`<div id="html_7fd07593a9caa61bc7648a1e4abe4151" style="width: 100.0%; height: 100.0%;"><b>Park at Olive</b><br>Installed: 2013-08-14<br>City: Palo Alto</div>`)[0];
+                popup_8909cee4e559dd0ef5adbc6eb9906fed.setContent(html_7fd07593a9caa61bc7648a1e4abe4151);
+            
+        
+
+        marker_ece166f90a6c2ee68542ac1c14ec53bc.bindPopup(popup_8909cee4e559dd0ef5adbc6eb9906fed)
+        ;
+
+        
+    
+    
+                marker_ece166f90a6c2ee68542ac1c14ec53bc.setIcon(icon_449ae5b13b67a83148cbd469338b7ad4);
+            
+    
+            var marker_6966f5acda6f5cbc410507449ffc3bd7 = L.marker(
+                [37.7839, -122.408],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_fb85a857b25c15727122fd3b83317a9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d6d4eeb2eb18be79745171a91070ad5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4949554e10f08f1e1b3c3e4edb21e8f = $(`<div id="html_c4949554e10f08f1e1b3c3e4edb21e8f" style="width: 100.0%; height: 100.0%;"><b>Powell Street BART</b><br>Installed: 2013-08-25<br>City: San Francisco</div>`)[0];
+                popup_6d6d4eeb2eb18be79745171a91070ad5.setContent(html_c4949554e10f08f1e1b3c3e4edb21e8f);
+            
+        
+
+        marker_6966f5acda6f5cbc410507449ffc3bd7.bindPopup(popup_6d6d4eeb2eb18be79745171a91070ad5)
+        ;
+
+        
+    
+    
+                marker_6966f5acda6f5cbc410507449ffc3bd7.setIcon(icon_fb85a857b25c15727122fd3b83317a9f);
+            
+    
+            var marker_73bcdd60c88f0f32af9988b77ee9eb05 = L.marker(
+                [37.795, -122.4],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_ab65835a29717dccd53a1300f6260272 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2301cd87bb49865482d1a52367e46f42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b679b1f6dce940b682bd574e1de7ba57 = $(`<div id="html_b679b1f6dce940b682bd574e1de7ba57" style="width: 100.0%; height: 100.0%;"><b>Clay at Battery</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_2301cd87bb49865482d1a52367e46f42.setContent(html_b679b1f6dce940b682bd574e1de7ba57);
+            
+        
+
+        marker_73bcdd60c88f0f32af9988b77ee9eb05.bindPopup(popup_2301cd87bb49865482d1a52367e46f42)
+        ;
+
+        
+    
+    
+                marker_73bcdd60c88f0f32af9988b77ee9eb05.setIcon(icon_ab65835a29717dccd53a1300f6260272);
+            
+    
+            var marker_3c18771e35b4bb7f013ea505c1fa2811 = L.marker(
+                [37.7973, -122.398],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_c6d2a4535c963bd00b7a01a0880911d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_766e91c3d1e96410b4d79f4bd72ad940 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fad03707532d41f7e950cfc867ced5a = $(`<div id="html_2fad03707532d41f7e950cfc867ced5a" style="width: 100.0%; height: 100.0%;"><b>Davis at Jackson</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_766e91c3d1e96410b4d79f4bd72ad940.setContent(html_2fad03707532d41f7e950cfc867ced5a);
+            
+        
+
+        marker_3c18771e35b4bb7f013ea505c1fa2811.bindPopup(popup_766e91c3d1e96410b4d79f4bd72ad940)
+        ;
+
+        
+    
+    
+                marker_3c18771e35b4bb7f013ea505c1fa2811.setIcon(icon_c6d2a4535c963bd00b7a01a0880911d1);
+            
+    
+            var marker_7ec6eae646165349c69bc47182363343 = L.marker(
+                [37.7942, -122.403],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_634647409068231d668d4bc70304f611 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_645788623c5ac23ec50b1beed4ea6421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b14ca49f889b9f8c852e222f5ef4fa3c = $(`<div id="html_b14ca49f889b9f8c852e222f5ef4fa3c" style="width: 100.0%; height: 100.0%;"><b>Commercial at Montgomery</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_645788623c5ac23ec50b1beed4ea6421.setContent(html_b14ca49f889b9f8c852e222f5ef4fa3c);
+            
+        
+
+        marker_7ec6eae646165349c69bc47182363343.bindPopup(popup_645788623c5ac23ec50b1beed4ea6421)
+        ;
+
+        
+    
+    
+                marker_7ec6eae646165349c69bc47182363343.setIcon(icon_634647409068231d668d4bc70304f611);
+            
+    
+            var marker_4609f2c92f6ee7ed042f96d83f3704af = L.marker(
+                [37.7954, -122.405],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_9c34ecf9f8f06465bd4e2c89c54a9ab9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c04d7df7fc772e481451065c51f853f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d3a3421c111067a5907879f8871a668 = $(`<div id="html_8d3a3421c111067a5907879f8871a668" style="width: 100.0%; height: 100.0%;"><b>Washington at Kearney</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_3c04d7df7fc772e481451065c51f853f.setContent(html_8d3a3421c111067a5907879f8871a668);
+            
+        
+
+        marker_4609f2c92f6ee7ed042f96d83f3704af.bindPopup(popup_3c04d7df7fc772e481451065c51f853f)
+        ;
+
+        
+    
+    
+                marker_4609f2c92f6ee7ed042f96d83f3704af.setIcon(icon_9c34ecf9f8f06465bd4e2c89c54a9ab9);
+            
+    
+            var marker_530f2ad16f999654ff06f197d0106f8e = L.marker(
+                [37.789, -122.403],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_f62567981ab93606ec18e36a4a0a1026 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94c9454a9c62011bc9f1ae72c9980ceb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa8e613b7edc25257b7616a88d3fa9b1 = $(`<div id="html_aa8e613b7edc25257b7616a88d3fa9b1" style="width: 100.0%; height: 100.0%;"><b>Post at Kearney</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_94c9454a9c62011bc9f1ae72c9980ceb.setContent(html_aa8e613b7edc25257b7616a88d3fa9b1);
+            
+        
+
+        marker_530f2ad16f999654ff06f197d0106f8e.bindPopup(popup_94c9454a9c62011bc9f1ae72c9980ceb)
+        ;
+
+        
+    
+    
+                marker_530f2ad16f999654ff06f197d0106f8e.setIcon(icon_f62567981ab93606ec18e36a4a0a1026);
+            
+    
+            var marker_c5731afd32bb1f50af701873a4887f95 = L.marker(
+                [37.8, -122.399],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_b8c0ea0facbca04dbc8199cb82d1faeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f335c0b574b17c4ad2a93ef25c6f84d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0151d2e966951ec786fc2b3eebd319e2 = $(`<div id="html_0151d2e966951ec786fc2b3eebd319e2" style="width: 100.0%; height: 100.0%;"><b>Embarcadero at Vallejo</b><br>Installed: 2013-08-19<br>City: San Francisco</div>`)[0];
+                popup_f335c0b574b17c4ad2a93ef25c6f84d1.setContent(html_0151d2e966951ec786fc2b3eebd319e2);
+            
+        
+
+        marker_c5731afd32bb1f50af701873a4887f95.bindPopup(popup_f335c0b574b17c4ad2a93ef25c6f84d1)
+        ;
+
+        
+    
+    
+                marker_c5731afd32bb1f50af701873a4887f95.setIcon(icon_b8c0ea0facbca04dbc8199cb82d1faeb);
+            
+    
+            var marker_6f3f3e59d56d70963578f24e2fb27d18 = L.marker(
+                [37.7903, -122.391],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_ec8fcc1acef0ebb7857e7848a1e53420 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e9a9c814458ea8597e91b58f1c562dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46ede1277967359a55b20817df756626 = $(`<div id="html_46ede1277967359a55b20817df756626" style="width: 100.0%; height: 100.0%;"><b>Spear at Folsom</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_3e9a9c814458ea8597e91b58f1c562dd.setContent(html_46ede1277967359a55b20817df756626);
+            
+        
+
+        marker_6f3f3e59d56d70963578f24e2fb27d18.bindPopup(popup_3e9a9c814458ea8597e91b58f1c562dd)
+        ;
+
+        
+    
+    
+                marker_6f3f3e59d56d70963578f24e2fb27d18.setIcon(icon_ec8fcc1acef0ebb7857e7848a1e53420);
+            
+    
+            var marker_cdd4c85db14974e8306ba4138c06a175 = L.marker(
+                [37.7954, -122.394],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_ebf04557fba7a316195d579f311177d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1be2bd21bfc2e364af34798154a9a022 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeac83b5269abea422c2c3cb043dc502 = $(`<div id="html_eeac83b5269abea422c2c3cb043dc502" style="width: 100.0%; height: 100.0%;"><b>Harry Bridges Plaza (Ferry Building)</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_1be2bd21bfc2e364af34798154a9a022.setContent(html_eeac83b5269abea422c2c3cb043dc502);
+            
+        
+
+        marker_cdd4c85db14974e8306ba4138c06a175.bindPopup(popup_1be2bd21bfc2e364af34798154a9a022)
+        ;
+
+        
+    
+    
+                marker_cdd4c85db14974e8306ba4138c06a175.setIcon(icon_ebf04557fba7a316195d579f311177d6);
+            
+    
+            var marker_b12c70a25eeada5f58c520b294b353ab = L.marker(
+                [37.7915, -122.391],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_178e8bda96514c670f86d78f41cb6737 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0842d4da91e18e8bb22369062575582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ce4ce9a22909116f2b85bd582211a5 = $(`<div id="html_88ce4ce9a22909116f2b85bd582211a5" style="width: 100.0%; height: 100.0%;"><b>Embarcadero at Folsom</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_d0842d4da91e18e8bb22369062575582.setContent(html_88ce4ce9a22909116f2b85bd582211a5);
+            
+        
+
+        marker_b12c70a25eeada5f58c520b294b353ab.bindPopup(popup_d0842d4da91e18e8bb22369062575582)
+        ;
+
+        
+    
+    
+                marker_b12c70a25eeada5f58c520b294b353ab.setIcon(icon_178e8bda96514c670f86d78f41cb6737);
+            
+    
+            var marker_e10e7a812e273847edc5bdfddaee3fd7 = L.marker(
+                [37.7872, -122.388],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_452f23b970e5c3453a99a5f69aaa041f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93527b4f3a8e3b1816c406c1a37b6d94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da72b831d4ef1b532e695da0fb3cab03 = $(`<div id="html_da72b831d4ef1b532e695da0fb3cab03" style="width: 100.0%; height: 100.0%;"><b>Embarcadero at Bryant</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_93527b4f3a8e3b1816c406c1a37b6d94.setContent(html_da72b831d4ef1b532e695da0fb3cab03);
+            
+        
+
+        marker_e10e7a812e273847edc5bdfddaee3fd7.bindPopup(popup_93527b4f3a8e3b1816c406c1a37b6d94)
+        ;
+
+        
+    
+    
+                marker_e10e7a812e273847edc5bdfddaee3fd7.setIcon(icon_452f23b970e5c3453a99a5f69aaa041f);
+            
+    
+            var marker_3ee68ad5ceb324504e1df7b2003c9ece = L.marker(
+                [37.7898, -122.395],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_90e198c8a02e5594b54bd98cc2a23942 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9da9e936f02dc643c62dfc3920e91069 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12f3334d7ce0bf1ea31c89f1f932e251 = $(`<div id="html_12f3334d7ce0bf1ea31c89f1f932e251" style="width: 100.0%; height: 100.0%;"><b>Temporary Transbay Terminal (Howard at Beale)</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_9da9e936f02dc643c62dfc3920e91069.setContent(html_12f3334d7ce0bf1ea31c89f1f932e251);
+            
+        
+
+        marker_3ee68ad5ceb324504e1df7b2003c9ece.bindPopup(popup_9da9e936f02dc643c62dfc3920e91069)
+        ;
+
+        
+    
+    
+                marker_3ee68ad5ceb324504e1df7b2003c9ece.setIcon(icon_90e198c8a02e5594b54bd98cc2a23942);
+            
+    
+            var marker_83c7fe8dc181d906b594c6c04076a470 = L.marker(
+                [37.7923, -122.397],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_b1e2ad4ae55085b193a8b676a486d006 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04c1809fb3cac47aa8808d4aaa74bce9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b73891a53506ca36923ddf6534730776 = $(`<div id="html_b73891a53506ca36923ddf6534730776" style="width: 100.0%; height: 100.0%;"><b>Beale at Market</b><br>Installed: 2013-08-20<br>City: San Francisco</div>`)[0];
+                popup_04c1809fb3cac47aa8808d4aaa74bce9.setContent(html_b73891a53506ca36923ddf6534730776);
+            
+        
+
+        marker_83c7fe8dc181d906b594c6c04076a470.bindPopup(popup_04c1809fb3cac47aa8808d4aaa74bce9)
+        ;
+
+        
+    
+    
+                marker_83c7fe8dc181d906b594c6c04076a470.setIcon(icon_b1e2ad4ae55085b193a8b676a486d006);
+            
+    
+            var marker_519ab80684900b52534f37d409613537 = L.marker(
+                [37.7818, -122.405],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_de81a4e0e02542fab87c5f49dca834c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6181df992b624f29c860671d60fb2e46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ac7ae0e95204056580fe1b4501aeadd = $(`<div id="html_4ac7ae0e95204056580fe1b4501aeadd" style="width: 100.0%; height: 100.0%;"><b>5th at Howard</b><br>Installed: 2013-08-21<br>City: San Francisco</div>`)[0];
+                popup_6181df992b624f29c860671d60fb2e46.setContent(html_4ac7ae0e95204056580fe1b4501aeadd);
+            
+        
+
+        marker_519ab80684900b52534f37d409613537.bindPopup(popup_6181df992b624f29c860671d60fb2e46)
+        ;
+
+        
+    
+    
+                marker_519ab80684900b52534f37d409613537.setIcon(icon_de81a4e0e02542fab87c5f49dca834c3);
+            
+    
+            var marker_435ec0396545ab116029ce68c9e6d310 = L.marker(
+                [37.7786, -122.418],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_337ad49bac61fa963e5e595b14261768 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cee4a276ed1552bfb3d11f9bc90eb68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4afcb7ab09dc51d31eb697186c8c8503 = $(`<div id="html_4afcb7ab09dc51d31eb697186c8c8503" style="width: 100.0%; height: 100.0%;"><b>San Francisco City Hall</b><br>Installed: 2013-08-21<br>City: San Francisco</div>`)[0];
+                popup_4cee4a276ed1552bfb3d11f9bc90eb68.setContent(html_4afcb7ab09dc51d31eb697186c8c8503);
+            
+        
+
+        marker_435ec0396545ab116029ce68c9e6d310.bindPopup(popup_4cee4a276ed1552bfb3d11f9bc90eb68)
+        ;
+
+        
+    
+    
+                marker_435ec0396545ab116029ce68c9e6d310.setIcon(icon_337ad49bac61fa963e5e595b14261768);
+            
+    
+            var marker_f1ef811360bd82add5e53493edcf8d06 = L.marker(
+                [37.7813, -122.419],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_dc1902a8e8a4692d6ac5d54a0cad3ada = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d593d00098dff5a148de2788d3414bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_744a0c19b3ab90338662be6d2dd2707c = $(`<div id="html_744a0c19b3ab90338662be6d2dd2707c" style="width: 100.0%; height: 100.0%;"><b>Golden Gate at Polk</b><br>Installed: 2013-08-21<br>City: San Francisco</div>`)[0];
+                popup_4d593d00098dff5a148de2788d3414bb.setContent(html_744a0c19b3ab90338662be6d2dd2707c);
+            
+        
+
+        marker_f1ef811360bd82add5e53493edcf8d06.bindPopup(popup_4d593d00098dff5a148de2788d3414bb)
+        ;
+
+        
+    
+    
+                marker_f1ef811360bd82add5e53493edcf8d06.setIcon(icon_dc1902a8e8a4692d6ac5d54a0cad3ada);
+            
+    
+            var marker_4b75df5dff774301ea22b4074951f9e2 = L.marker(
+                [37.8048, -122.403],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_34083daf58882933dcaad6f0a2ede3b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19da972af7fb2810327e55d5ab1c8577 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fe736bd526b02ba6cdac3e9ff159e1b = $(`<div id="html_2fe736bd526b02ba6cdac3e9ff159e1b" style="width: 100.0%; height: 100.0%;"><b>Embarcadero at Sansome</b><br>Installed: 2013-08-21<br>City: San Francisco</div>`)[0];
+                popup_19da972af7fb2810327e55d5ab1c8577.setContent(html_2fe736bd526b02ba6cdac3e9ff159e1b);
+            
+        
+
+        marker_4b75df5dff774301ea22b4074951f9e2.bindPopup(popup_19da972af7fb2810327e55d5ab1c8577)
+        ;
+
+        
+    
+    
+                marker_4b75df5dff774301ea22b4074951f9e2.setIcon(icon_34083daf58882933dcaad6f0a2ede3b6);
+            
+    
+            var marker_d5db491598e48de24d4dbc1dfc4de264 = L.marker(
+                [37.7805, -122.39],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_5f418bab8a05519a328475fbf3d9fb83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e64c1e79172db944b3a1e7e3675f0a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f004f4655a5a186b5b8cc5b7f9dae35a = $(`<div id="html_f004f4655a5a186b5b8cc5b7f9dae35a" style="width: 100.0%; height: 100.0%;"><b>2nd at Townsend</b><br>Installed: 2013-08-22<br>City: San Francisco</div>`)[0];
+                popup_8e64c1e79172db944b3a1e7e3675f0a1.setContent(html_f004f4655a5a186b5b8cc5b7f9dae35a);
+            
+        
+
+        marker_d5db491598e48de24d4dbc1dfc4de264.bindPopup(popup_8e64c1e79172db944b3a1e7e3675f0a1)
+        ;
+
+        
+    
+    
+                marker_d5db491598e48de24d4dbc1dfc4de264.setIcon(icon_5f418bab8a05519a328475fbf3d9fb83);
+            
+    
+            var marker_c98da441559270b8b6e36564674418b2 = L.marker(
+                [37.7853, -122.396],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_4155d2091e5b896068bbfb06eb633074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92ea2cdd47684aafac5fe9d606ac617e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76c1843c82930bacfb617f36b899fccf = $(`<div id="html_76c1843c82930bacfb617f36b899fccf" style="width: 100.0%; height: 100.0%;"><b>2nd at Folsom</b><br>Installed: 2013-08-22<br>City: San Francisco</div>`)[0];
+                popup_92ea2cdd47684aafac5fe9d606ac617e.setContent(html_76c1843c82930bacfb617f36b899fccf);
+            
+        
+
+        marker_c98da441559270b8b6e36564674418b2.bindPopup(popup_92ea2cdd47684aafac5fe9d606ac617e)
+        ;
+
+        
+    
+    
+                marker_c98da441559270b8b6e36564674418b2.setIcon(icon_4155d2091e5b896068bbfb06eb633074);
+            
+    
+            var marker_75cd2f6e1a89582c886cc47de55a53c7 = L.marker(
+                [37.787, -122.398],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_953bae2b71fb53e466a9e8e20bb98ad9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b3f39cb5f4d1043fcc49fd330c51ce5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f29f5ff40bf5c31208a20cef37d89428 = $(`<div id="html_f29f5ff40bf5c31208a20cef37d89428" style="width: 100.0%; height: 100.0%;"><b>Howard at 2nd</b><br>Installed: 2013-08-22<br>City: San Francisco</div>`)[0];
+                popup_7b3f39cb5f4d1043fcc49fd330c51ce5.setContent(html_f29f5ff40bf5c31208a20cef37d89428);
+            
+        
+
+        marker_75cd2f6e1a89582c886cc47de55a53c7.bindPopup(popup_7b3f39cb5f4d1043fcc49fd330c51ce5)
+        ;
+
+        
+    
+    
+                marker_75cd2f6e1a89582c886cc47de55a53c7.setIcon(icon_953bae2b71fb53e466a9e8e20bb98ad9);
+            
+    
+            var marker_0bd1d38b6714f81d9daa4ee1ed37022c = L.marker(
+                [37.7823, -122.393],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_812b3970ae0def75fe424f64106b3162 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8025d315623bab5d99f389f3dccd898f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82cdff5e822c08d5183957df1a6d75d3 = $(`<div id="html_82cdff5e822c08d5183957df1a6d75d3" style="width: 100.0%; height: 100.0%;"><b>2nd at South Park</b><br>Installed: 2013-08-22<br>City: San Francisco</div>`)[0];
+                popup_8025d315623bab5d99f389f3dccd898f.setContent(html_82cdff5e822c08d5183957df1a6d75d3);
+            
+        
+
+        marker_0bd1d38b6714f81d9daa4ee1ed37022c.bindPopup(popup_8025d315623bab5d99f389f3dccd898f)
+        ;
+
+        
+    
+    
+                marker_0bd1d38b6714f81d9daa4ee1ed37022c.setIcon(icon_812b3970ae0def75fe424f64106b3162);
+            
+    
+            var marker_d0b735e9f133774bd637df224f8246f9 = L.marker(
+                [37.7711, -122.403],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_aad8501cdcfa8c8d4ba65796e9f758f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14404bab4d34c11205b5acd6fb1fcae8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acbd2b17c794e229a78ff9b113f4901e = $(`<div id="html_acbd2b17c794e229a78ff9b113f4901e" style="width: 100.0%; height: 100.0%;"><b>Townsend at 7th</b><br>Installed: 2013-08-22<br>City: San Francisco</div>`)[0];
+                popup_14404bab4d34c11205b5acd6fb1fcae8.setContent(html_acbd2b17c794e229a78ff9b113f4901e);
+            
+        
+
+        marker_d0b735e9f133774bd637df224f8246f9.bindPopup(popup_14404bab4d34c11205b5acd6fb1fcae8)
+        ;
+
+        
+    
+    
+                marker_d0b735e9f133774bd637df224f8246f9.setIcon(icon_aad8501cdcfa8c8d4ba65796e9f758f4);
+            
+    
+            var marker_ef0fb180b1f4d0d1f85cb9aa2dc5a9de = L.marker(
+                [37.7748, -122.419],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_a407464b18716d1fecfe26ef07564c5a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cd4a76949130e55e817cdcbd4d64aed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b62e296860d659f707c295a236db80bd = $(`<div id="html_b62e296860d659f707c295a236db80bd" style="width: 100.0%; height: 100.0%;"><b>South Van Ness at Market</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_4cd4a76949130e55e817cdcbd4d64aed.setContent(html_b62e296860d659f707c295a236db80bd);
+            
+        
+
+        marker_ef0fb180b1f4d0d1f85cb9aa2dc5a9de.bindPopup(popup_4cd4a76949130e55e817cdcbd4d64aed)
+        ;
+
+        
+    
+    
+                marker_ef0fb180b1f4d0d1f85cb9aa2dc5a9de.setIcon(icon_a407464b18716d1fecfe26ef07564c5a);
+            
+    
+            var marker_1760a77cb066a8f4456574c8a17159cc = L.marker(
+                [37.7766, -122.417],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_a2547564a3fd866a92019dac2e4c5e55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de0a99b889f125280b9d2fe6c5d28003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2edcbb197176474cca5af4a5dfc047aa = $(`<div id="html_2edcbb197176474cca5af4a5dfc047aa" style="width: 100.0%; height: 100.0%;"><b>Market at 10th</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_de0a99b889f125280b9d2fe6c5d28003.setContent(html_2edcbb197176474cca5af4a5dfc047aa);
+            
+        
+
+        marker_1760a77cb066a8f4456574c8a17159cc.bindPopup(popup_de0a99b889f125280b9d2fe6c5d28003)
+        ;
+
+        
+    
+    
+                marker_1760a77cb066a8f4456574c8a17159cc.setIcon(icon_a2547564a3fd866a92019dac2e4c5e55);
+            
+    
+            var marker_a5f2cca0e331194cf5620ced81ec0bfd = L.marker(
+                [37.7849, -122.401],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_64c4a7a0cf3b8ede517a73990c250bc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82252c66e52e43a95320fe30d25b3278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce316bd3a70f598afcb5c8f9aa4b468 = $(`<div id="html_cce316bd3a70f598afcb5c8f9aa4b468" style="width: 100.0%; height: 100.0%;"><b>Yerba Buena Center of the Arts (3rd @ Howard)</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_82252c66e52e43a95320fe30d25b3278.setContent(html_cce316bd3a70f598afcb5c8f9aa4b468);
+            
+        
+
+        marker_a5f2cca0e331194cf5620ced81ec0bfd.bindPopup(popup_82252c66e52e43a95320fe30d25b3278)
+        ;
+
+        
+    
+    
+                marker_a5f2cca0e331194cf5620ced81ec0bfd.setIcon(icon_64c4a7a0cf3b8ede517a73990c250bc2);
+            
+    
+            var marker_2321ad12a16c94186a53d96423d51398 = L.marker(
+                [37.7766, -122.395],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_42f75b0dee775fa01e01af143e3e39d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1504a1ff9ec408be47c2f6d126500f48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ee73dc2811f3d44f9e08099f91df78c = $(`<div id="html_3ee73dc2811f3d44f9e08099f91df78c" style="width: 100.0%; height: 100.0%;"><b>San Francisco Caltrain 2 (330 Townsend)</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_1504a1ff9ec408be47c2f6d126500f48.setContent(html_3ee73dc2811f3d44f9e08099f91df78c);
+            
+        
+
+        marker_2321ad12a16c94186a53d96423d51398.bindPopup(popup_1504a1ff9ec408be47c2f6d126500f48)
+        ;
+
+        
+    
+    
+                marker_2321ad12a16c94186a53d96423d51398.setIcon(icon_42f75b0dee775fa01e01af143e3e39d6);
+            
+    
+            var marker_2c5bc91ae8238fb49241c44c4912557b = L.marker(
+                [37.7766, -122.395],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_24203a63ab38952e0b5f0fbbfec5d7c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ce676459fa73f13bceeb06f3c4fc098 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ce6b5a98450fb8a590d6a25338737b2 = $(`<div id="html_9ce6b5a98450fb8a590d6a25338737b2" style="width: 100.0%; height: 100.0%;"><b>San Francisco Caltrain (Townsend at 4th)</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_0ce676459fa73f13bceeb06f3c4fc098.setContent(html_9ce6b5a98450fb8a590d6a25338737b2);
+            
+        
+
+        marker_2c5bc91ae8238fb49241c44c4912557b.bindPopup(popup_0ce676459fa73f13bceeb06f3c4fc098)
+        ;
+
+        
+    
+    
+                marker_2c5bc91ae8238fb49241c44c4912557b.setIcon(icon_24203a63ab38952e0b5f0fbbfec5d7c1);
+            
+    
+            var marker_74c8eea7dd63f5fdae020d9f07cb9447 = L.marker(
+                [37.7884, -122.409],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_79fc8a7845b2478a1f0432c96f2680e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da217fad6d79da508dc31349a1fa69d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bbaad7bac57f9f9fdf64606b43bc2da = $(`<div id="html_3bbaad7bac57f9f9fdf64606b43bc2da" style="width: 100.0%; height: 100.0%;"><b>Powell at Post (Union Square)</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_da217fad6d79da508dc31349a1fa69d2.setContent(html_3bbaad7bac57f9f9fdf64606b43bc2da);
+            
+        
+
+        marker_74c8eea7dd63f5fdae020d9f07cb9447.bindPopup(popup_da217fad6d79da508dc31349a1fa69d2)
+        ;
+
+        
+    
+    
+                marker_74c8eea7dd63f5fdae020d9f07cb9447.setIcon(icon_79fc8a7845b2478a1f0432c96f2680e0);
+            
+    
+            var marker_9393cb17e7a4e07e1e9875a34b8271d2 = L.marker(
+                [37.781, -122.412],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_e375e3a58716b14f23e1ccf4af6e350a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f79dfa572120c216302e240b1d6e3731 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f48a8e56790d2a3a957a1a83cd5ecde = $(`<div id="html_1f48a8e56790d2a3a957a1a83cd5ecde" style="width: 100.0%; height: 100.0%;"><b>Civic Center BART (7th at Market)</b><br>Installed: 2013-08-23<br>City: San Francisco</div>`)[0];
+                popup_f79dfa572120c216302e240b1d6e3731.setContent(html_1f48a8e56790d2a3a957a1a83cd5ecde);
+            
+        
+
+        marker_9393cb17e7a4e07e1e9875a34b8271d2.bindPopup(popup_f79dfa572120c216302e240b1d6e3731)
+        ;
+
+        
+    
+    
+                marker_9393cb17e7a4e07e1e9875a34b8271d2.setIcon(icon_e375e3a58716b14f23e1ccf4af6e350a);
+            
+    
+            var marker_330948c0fff95069415c7cc63c141c48 = L.marker(
+                [37.7985, -122.407],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_e9c04ce957acc5ef440857cdd7e6e05f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_088a26a15bf8b7e9774b741e145648b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6722f00679ed32587b97fc77d4732c2f = $(`<div id="html_6722f00679ed32587b97fc77d4732c2f" style="width: 100.0%; height: 100.0%;"><b>Grant Avenue at Columbus Avenue</b><br>Installed: 2013-08-21<br>City: San Francisco</div>`)[0];
+                popup_088a26a15bf8b7e9774b741e145648b1.setContent(html_6722f00679ed32587b97fc77d4732c2f);
+            
+        
+
+        marker_330948c0fff95069415c7cc63c141c48.bindPopup(popup_088a26a15bf8b7e9774b741e145648b1)
+        ;
+
+        
+    
+    
+                marker_330948c0fff95069415c7cc63c141c48.setIcon(icon_e9c04ce957acc5ef440857cdd7e6e05f);
+            
+    
+            var marker_d0514667a7a277c02e45bf023c8a7beb = L.marker(
+                [37.7941, -122.394],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_23d49f46dcbbf53dcc4894b15bd3947b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a01bd1721b9175c30fe7989224a914d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee03148a0560cd7b40573f7bbb813678 = $(`<div id="html_ee03148a0560cd7b40573f7bbb813678" style="width: 100.0%; height: 100.0%;"><b>Steuart at Market</b><br>Installed: 2013-08-25<br>City: San Francisco</div>`)[0];
+                popup_9a01bd1721b9175c30fe7989224a914d.setContent(html_ee03148a0560cd7b40573f7bbb813678);
+            
+        
+
+        marker_d0514667a7a277c02e45bf023c8a7beb.bindPopup(popup_9a01bd1721b9175c30fe7989224a914d)
+        ;
+
+        
+    
+    
+                marker_d0514667a7a277c02e45bf023c8a7beb.setIcon(icon_23d49f46dcbbf53dcc4894b15bd3947b);
+            
+    
+            var marker_73eb05571c74f0bb889593fa1787961f = L.marker(
+                [37.7913, -122.399],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_c63983be9012f4310292bb3f842ef484 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62fe5793a333e15a2976ccf656d98c81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_744b8256d546a442766c36872bce4126 = $(`<div id="html_744b8256d546a442766c36872bce4126" style="width: 100.0%; height: 100.0%;"><b>Mechanics Plaza (Market at Battery)</b><br>Installed: 2013-08-25<br>City: San Francisco</div>`)[0];
+                popup_62fe5793a333e15a2976ccf656d98c81.setContent(html_744b8256d546a442766c36872bce4126);
+            
+        
+
+        marker_73eb05571c74f0bb889593fa1787961f.bindPopup(popup_62fe5793a333e15a2976ccf656d98c81)
+        ;
+
+        
+    
+    
+                marker_73eb05571c74f0bb889593fa1787961f.setIcon(icon_c63983be9012f4310292bb3f842ef484);
+            
+    
+            var marker_f2b9b4d4a847aa2b0cab327c3f9d928a = L.marker(
+                [37.7863, -122.405],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_a55d18a315575090a5aa2f5970207223 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5ee3eedc70e15a321b0e0824141cac0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2f02c44764d1e3d19feb370c5dd1f87 = $(`<div id="html_d2f02c44764d1e3d19feb370c5dd1f87" style="width: 100.0%; height: 100.0%;"><b>Market at 4th</b><br>Installed: 2013-08-25<br>City: San Francisco</div>`)[0];
+                popup_d5ee3eedc70e15a321b0e0824141cac0.setContent(html_d2f02c44764d1e3d19feb370c5dd1f87);
+            
+        
+
+        marker_f2b9b4d4a847aa2b0cab327c3f9d928a.bindPopup(popup_d5ee3eedc70e15a321b0e0824141cac0)
+        ;
+
+        
+    
+    
+                marker_f2b9b4d4a847aa2b0cab327c3f9d928a.setIcon(icon_a55d18a315575090a5aa2f5970207223);
+            
+    
+            var marker_09e4be4ab39899c1929e0b7d08ff09ea = L.marker(
+                [37.7896, -122.401],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_8b51743d0e99a730e40dd6af3a63cdd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78b04e509258ccdd8d7b2beb2ac76826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_077940c14668b396c6c79810e6cb9026 = $(`<div id="html_077940c14668b396c6c79810e6cb9026" style="width: 100.0%; height: 100.0%;"><b>Market at Sansome</b><br>Installed: 2013-08-25<br>City: San Francisco</div>`)[0];
+                popup_78b04e509258ccdd8d7b2beb2ac76826.setContent(html_077940c14668b396c6c79810e6cb9026);
+            
+        
+
+        marker_09e4be4ab39899c1929e0b7d08ff09ea.bindPopup(popup_78b04e509258ccdd8d7b2beb2ac76826)
+        ;
+
+        
+    
+    
+                marker_09e4be4ab39899c1929e0b7d08ff09ea.setIcon(icon_8b51743d0e99a730e40dd6af3a63cdd3);
+            
+    
+            var marker_9b95a612b9f73bc05fc002c517b41d68 = L.marker(
+                [37.3526, -121.906],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_2bee8d029aecec39e02ad3a80598f531 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da7a9740d226a37aeabae53ddaba2671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20ef36799ca16e21d26f5b7249013934 = $(`<div id="html_20ef36799ca16e21d26f5b7249013934" style="width: 100.0%; height: 100.0%;"><b>Santa Clara County Civic Center</b><br>Installed: 2013-12-31<br>City: San Jose</div>`)[0];
+                popup_da7a9740d226a37aeabae53ddaba2671.setContent(html_20ef36799ca16e21d26f5b7249013934);
+            
+        
+
+        marker_9b95a612b9f73bc05fc002c517b41d68.bindPopup(popup_da7a9740d226a37aeabae53ddaba2671)
+        ;
+
+        
+    
+    
+                marker_9b95a612b9f73bc05fc002c517b41d68.setIcon(icon_2bee8d029aecec39e02ad3a80598f531);
+            
+    
+            var marker_e479f8ed6656b675bd61a6f7df877edd = L.marker(
+                [37.7985, -122.401],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_e0f76cbfc0493e4e94872b1fdf573688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68c30fb961a8114f8a95a79b855bf61a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6748291361d2f009b6a3119bc7d3882 = $(`<div id="html_a6748291361d2f009b6a3119bc7d3882" style="width: 100.0%; height: 100.0%;"><b>Broadway St at Battery St</b><br>Installed: 2014-01-22<br>City: San Francisco</div>`)[0];
+                popup_68c30fb961a8114f8a95a79b855bf61a.setContent(html_a6748291361d2f009b6a3119bc7d3882);
+            
+        
+
+        marker_e479f8ed6656b675bd61a6f7df877edd.bindPopup(popup_68c30fb961a8114f8a95a79b855bf61a)
+        ;
+
+        
+    
+    
+                marker_e479f8ed6656b675bd61a6f7df877edd.setIcon(icon_e0f76cbfc0493e4e94872b1fdf573688);
+            
+    
+            var marker_f03bbdc8c894ea2b13947b069026523c = L.marker(
+                [37.4913, -122.236],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_b7bede5b909b5024f09afcc3b8ed4d59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae63ccbe12b2c0bde8400a9f24247f98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88938827ac7bf5a3b6820d81e4c9c93b = $(`<div id="html_88938827ac7bf5a3b6820d81e4c9c93b" style="width: 100.0%; height: 100.0%;"><b>Mezes Park</b><br>Installed: 2014-02-20<br>City: Redwood City</div>`)[0];
+                popup_ae63ccbe12b2c0bde8400a9f24247f98.setContent(html_88938827ac7bf5a3b6820d81e4c9c93b);
+            
+        
+
+        marker_f03bbdc8c894ea2b13947b069026523c.bindPopup(popup_ae63ccbe12b2c0bde8400a9f24247f98)
+        ;
+
+        
+    
+    
+                marker_f03bbdc8c894ea2b13947b069026523c.setIcon(icon_b7bede5b909b5024f09afcc3b8ed4d59);
+            
+    
+            var marker_6844adfadd3c54e1ea39e542e6f86bbb = L.marker(
+                [37.3427, -121.896],
+                {
+}
+            ).addTo(map_f45638c6a09d367d31078d1cd38fab5d);
+        
+    
+            var icon_22344a3446f287b23e9d04225fe1c0f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "bicycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7568ca4e88d9c56c00ea89a48f6b8835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eb94c300b8207426741cd972a96ec81 = $(`<div id="html_6eb94c300b8207426741cd972a96ec81" style="width: 100.0%; height: 100.0%;"><b>Ryland Park</b><br>Installed: 2014-04-09<br>City: San Jose</div>`)[0];
+                popup_7568ca4e88d9c56c00ea89a48f6b8835.setContent(html_6eb94c300b8207426741cd972a96ec81);
+            
+        
+
+        marker_6844adfadd3c54e1ea39e542e6f86bbb.bindPopup(popup_7568ca4e88d9c56c00ea89a48f6b8835)
+        ;
+
+        
+    
+    
+                marker_6844adfadd3c54e1ea39e542e6f86bbb.setIcon(icon_22344a3446f287b23e9d04225fe1c0f2);
+            
+</script>
+</html>
