@@ -6,7 +6,7 @@ The project identifies shortages at start stations and surpluses at end stations
 By analyzing usage patterns, the project ultimately aims to improve operational efficiency and boost bike usage.
 
 ## Data relationship
-
+![test](assets/DBdiagram.png)
 
 
 ## Methodology 
