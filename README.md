@@ -1,4 +1,5 @@
-# Strategic Optimization of Bike Supply and Demand
+# San Francisco Bike Share Analysis
+: Strategic Optimization of Bike Share for Maximizing Usage During Commuting Hours
 
 ## Project Summary
 The aim of this project is to optimize bike supply and demand in San Francisco during commute hours in order to increase overall usage.
@@ -8,11 +9,12 @@ By analyzing usage patterns, the project ultimately aims to improve operational 
 ## Data relationship
 ![test](assets/DBdiagram.png)
 
-
 ## Methodology 
 - **MySQL** : To create a database, load data into tables, and perform various analyses by joining tables.
 - **MySQL connect with Python** : To handle and visualize data in order to gain insights.
 
+## Notebook
+- Because of the discussion about Folium, you can find the fully preserved notebook here. [San-Francisco-bike-share.ipynb](https://nbviewer.org/github/joanna-jaeeun/San-Francisco-bike-share-analysis/blob/main/San%20Fransico%20Bike%20Share%20Analysis.ipynb)
 
 ## Conclusions
 - User perspective: Reduce user inconvenience caused by bike shortages during commute hours and lack of docking space at destination stations. Provide cost-saving incentives to encourage more frequent and economical use.
