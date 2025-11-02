@@ -22,11 +22,57 @@ All strategies was derived through SQL queries.
 - Checking usages by weekly and hourly
 - Fining popular routes (Weekday, commute hours-morining and evening)
   - Defining commute hours to check the distribution
-- Proposing a redistribution strategy
-  - Indentifying shortages at start stations
+  - Popular routes
+    
+<div align="center">
+  
+| start_hour   | end_hour | start_station_name | end_station_name | number |
+|--------------|----------|--------------------|------------------|--------|
+| 8            | 8        | Harry Bridges Plaza<br>(Ferry Building) | 2nd at Townsend | 1341	|
+| 9   | 9     | San Francisco Caltrain 2 <br>(330 Townsend) | Townsend at 7th | 1018 |
+| 9   | 9     | Market at Sansome | 2nd at South Park | 991 |
+
+</div>
+
+<div align="center">
+  
+| start_hour   | end_hour | start_station_name | end_station_name | number |
+|--------------|----------|--------------------|------------------|--------|
+| 17           | 17        | Embarcadero at Sansome | Steuart at Market | 1064	|
+| 17           | 17        | 2nd at Townsend | Harry Bridges Plaza <br>(Ferry Building) | 992 |
+| 17           | 17        | 2nd at South Park | Market at Sansome | 911 |
+
+</div>
+  
+- Proposing redistribution strategies
+  
+  - Is there enough supply at the start stations of the popular route?
+        
+<p align="center">
+  <img src="assets/startstation.png" width="600" alt="Project Logo">
+</p>
+<p align="center"><em>Checking Avg_demand, Avg_available, and Demand_Supply_gap at start station</em></p>    
+
+------
   - Identifying nearby bike rental stations within a 1 km radius of popular start stations
-  - Indentifying surpluses at end stations 
-  - Identifying nearby bike rental stations within a 1 km radius of popular end stations 
+
+
+<p align="center">  
+  <img src="assets/insight2.jpg" width="600" alt="Project Logo">  
+</p>
+
+
+  - Is there enough capacity at the end stations of the popular route?
+    : Checking Avg_arrivals, Remaining_bikes, and Capacity at end station
+    
+<p align="center">
+  <img src="assets/endstation.png" width="600" alt="Project Logo">
+</p>
+<p align="center"><em>Checking Avg_demand, Avg_available, and Demand_Supply_gap at start station</em></p>    
+
+  - Identifying nearby bike rental stations within a 1 km radius of popular end stations
+<폴리움>
+
 
 ## Conclusions
 - User perspective: Reduce user inconvenience caused by bike shortages during commute hours and lack of docking space at destination stations. Provide cost-saving incentives to encourage more frequent and economical use.
