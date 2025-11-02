@@ -20,7 +20,8 @@ By analyzing usage patterns, the project ultimately aims to improve operational 
 All strategies was derived through SQL queries.
 - Selecting city : Check the cities in the dataset using Folium, and filter to show only San Francisco.
 - Checking usages by weekly and hourly
-  High usage on weekdays (Monday to Friday), noticeable drop on weekends (Saturday and Sunday)
+  
+  High usage on weekdays (Monday to Friday), noticeable drop on weekends (Saturday and Sunday)<br>
   Weekday hourly usage trend analyzed in detail.
 
 <p align="center">
@@ -59,27 +60,27 @@ All strategies was derived through SQL queries.
   
   - Is there enough supply at the start stations of the popular route?
         
-<p align="center">
-  <img src="assets/startstation.png" width="600" alt="Project Logo">
-</p>
-<p align="center"><em>Checking Avg_demand, Avg_available, and Demand_Supply_gap at start station</em></p>    
-
+    <p align="center">
+      <img src="assets/startstation.png" width="600" alt="Project Logo">
+    </p>
+    <p align="center"><em>Checking Avg_demand, Avg_available, and Demand_Supply_gap at start station</em></p>    
+    
   - Identifying nearby bike rental stations within a 1 km radius of popular start stations
   - Business insights
-<p align="center">  
-  <img src="assets/Insight2.jpg" width="600" alt="Project Logo">  
-</p>
+    <p align="center">  
+      <img src="assets/Insight2.jpg" width="600" alt="Project Logo">  
+    </p>
 
 
   - Is there enough capacity at the end stations of the popular route?
     
-<p align="center">
-  <img src="assets/endstation.png" width="600" alt="Project Logo">
-</p>
-<p align="center"><em>Checking Avg_arrivals, Remaining_bikes, and Capacity at end station</em></p>    
+    <p align="center">
+      <img src="assets/endstation.png" width="600" alt="Project Logo">
+    </p>
+    <p align="center"><em>Checking Avg_arrivals, Remaining_bikes, and Capacity at end station</em></p>    
 
   - Identifying nearby bike rental stations within a 1 km radius of popular end stations
-
+  
   - Business insights
 <p align="center">  
   <img src="assets/Insight3.jpg" width="600" alt="Project Logo">  
