@@ -28,8 +28,8 @@ All strategies was derived through SQL queries.
   
 | start_hour   | end_hour | start_station_name | end_station_name | number |
 |--------------|----------|--------------------|------------------|--------|
-| 8            | 8        | Harry Bridges Plaza (Ferry Building) | 2nd at Townsend | 1341	|
-| 9   | 9     | San Francisco Caltrain 2 (330 Townsend) | Townsend at 7th | 1018 |
+| 8            | 8        | Harry Bridges Plaza<br>(Ferry Building) | 2nd at Townsend | 1341	|
+| 9   | 9     | San Francisco Caltrain 2 <br>(330 Townsend) | Townsend at 7th | 1018 |
 | 9   | 9     | Market at Sansome | 2nd at South Park | 991 |
 
 </div>
@@ -39,7 +39,7 @@ All strategies was derived through SQL queries.
 | start_hour   | end_hour | start_station_name | end_station_name | number |
 |--------------|----------|--------------------|------------------|--------|
 | 17           | 17        | Embarcadero at Sansome | Steuart at Market | 1064	|
-| 17           | 17        | 2nd at Townsend | Harry Bridges Plaza (Ferry Building) | 992 |
+| 17           | 17        | 2nd at Townsend | Harry Bridges Plaza <br>(Ferry Building) | 992 |
 | 17           | 17        | 2nd at South Park | Market at Sansome | 911 |
 
 </div>
@@ -55,6 +55,7 @@ All strategies was derived through SQL queries.
 
 ------
   - Identifying nearby bike rental stations within a 1 km radius of popular start stations
+
 
 <p align="center">  
   <img src="assets/insight2.jpg" width="600" alt="Project Logo">  
